@@ -1,0 +1,147 @@
+@keyframes colorchange {
+	0%   {background-color: red;}
+	25%  {background-color: yellow;}
+	50%  {background-color: orange;}
+	100% {background-color: yellow;}
+  }
+
+.topnav {
+	overflow: hidden;
+	background-color: black;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	display: block;
+	color: white;
+	padding: 30px 20px;
+	text-align: center;
+	font-family: "Noto Sans JP", sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: black;
+	color: white;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+	background-color: red;
+	color: BLACK;
+	padding: 30px;
+}
+
+.topnav form {
+	float: left;
+	padding: 22px 10px;
+	text-align: center;
+	border: none;
+	margin-right: 16px;
+	font-size: 17px;
+}
+
+.topnav button {
+	margin-left: none;
+	border: none;
+}
+
+a.visited {
+	color: white;
+}
+
+a.link {
+	color: white;
+}
+
+img {
+	height: 10px;
+	width: 10px;
+	padding: 2px;
+}
+
+
+button {
+	background-color: red;
+	color: white;
+	border-radius: 0px;
+	height: 25px;
+
+}
+
+div.maintext {
+	border:thin;
+	color: black;
+	background-color: yellow;
+	text-align: center;
+	padding: 50px 0px;
+	border-style: inset;
+	font-family: "Squada One", sans-serif;
+	animation-name: colorchange;
+	animation-duration: 4s;
+	font-size: 30px;
+	text-shadow: 1px 2px rosybrown;
+}
+
+a.signup {
+	float: right;
+	font-size: 10px;
+}
+
+a:hover {
+	animation-name: colorchange;
+	animation-duration: 2s;
+
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+footer a {
+	float: left;
+	float: left;
+	display: block;
+	color: white;
+	padding: 30px 20px;
+	text-align: center;
+	font-family: "Noto Sans JP", sans-serif;
+}
+
+.madeBy {
+	float: right;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+
+.botnav {
+	overflow: hidden;
+	background-color: black;
+}
+
+.botnav a {
+	float: left;
+	display: block;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	font-family: "Noto Sans JP", sans-serif;
+}
+
+.botnav a:hover {
+	background-color: black;
+	color: white;
+}
+
+.botnav a.active {
+	background-color: red;
+	color: BLACK;
+	padding: 30px;
+}
